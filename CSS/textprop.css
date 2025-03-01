@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+#text {
+    color: red;
+    font-family: "Dosis", serif;
+}
+*{
+    color: white;
+}
+
+body{
+    /* background-image: url('https://th.bing.com/th/id/OSK.HERO8P_x8T68N00ysint2ElLMIXBU3fSKBRuMYrkgKSBgvg?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+
+   
+
+    /* background-image: linear-gradient(circle, green,red,blueviolet,yellow); */
+     /* to left , to left bottom, to right , to right bottom , to right top, to left top*/
+
+     background-image: radial-gradient(circle,red,blue,yellow);
+}
+
+h2 {
+    color: #400cdd;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+}
+
+h3 {
+    color: rgb(255, 157, 240);
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+h4 {
+    color: rgba(7, 248, 55, 0.5);
+    text-align: right;
+    text-transform: lowercase;
+    font-size: 45px;
+    text-decoration: 3px overline dashed black;
+}
+
+p {
+    text-align: justify;
+    text-indent: 52px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 05px;
+    font-family: "Bebas Neue", serif;
+}
+
+#main {
+    text-shadow: 0px 0px 10px red;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: uppercase;
+    color: red;
+
+    /* border */
+    border: 2px solid forestgreen;
+
+    /* thickness style->solid,dotted,double,dashed color */
+
+    /* border-left: 2px solid green;
+    border-top: 2px dashed orange;
+    border-right: 2px dotted tomato;
+    border-bottom: 2px double crimson; */
+
+    border-radius: 10px;
+
+    /* padding: area around the content is called as padding  */
+    /* padding: 15px; */
+    padding: 22px 23px 14px 10px;
+    /* t r b l
+    t rl b 
+    tb lr 
+    tblr */
+
+    /* padding-left: 45px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px; */
+
+
+    /* margin:space around the border is called as margin */
+    margin: 10px 45px 10px 85px;
+    /* t r b l
+    t rl b 
+    tb lr 
+    tblr */
+
+    /* margin-top: 85px;
+    margin-left: 45px;
+    margin-right: 33px;
+    margin-bottom: 10px; */
+}

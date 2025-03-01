@@ -1,0 +1,29 @@
+/* descendent selector */
+#parentelement img{
+    height: 250px;
+    width: 250px;
+}
+
+/* child selector  */
+#childselector>img{
+    border: 10px solid red;
+    height: 250px;
+    width: 250px;
+}
+
+div img{
+    height: 250px;
+    width: 250px;
+
+}
+
+/* adjecent silbling (+): */
+h1+button{
+    color: red;
+}
+
+
+/* general silbling (~) */
+h2~button{
+    background-color: lawngreen;
+}

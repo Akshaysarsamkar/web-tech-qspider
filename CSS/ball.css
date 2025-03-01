@@ -1,0 +1,18 @@
+.ball {
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.ball1{
+    background-image: linear-gradient(red,green,blue,yellow);
+}
+
+.ball2{
+    background-image: radial-gradient(red,green,blue,yellow);
+}
+
+.ball3{
+    background-image: co-gradient(red,green,blue,yellow);
+}

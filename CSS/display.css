@@ -1,0 +1,25 @@
+div{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline;
+}
+
+b{
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    border: 1px solid black;
+    display: block;
+}
+
+.demo{
+
+    height: 250px;
+    width: 250px;
+    background-color: orange;
+    border: 1px solid black;
+    display: inline-block;
+
+}

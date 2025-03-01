@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinator selector</title>\
+    <link rel="stylesheet" href="./combinator.css">
+</head>
+
+<body>
+
+    <!-- combinator selector : combination of simple selector is called as combinator selector  -->
+    <!-- 1] descendent selector : used to target direct as well as indirect chidren of perticular parent used this .useing space we represent descendent selector  -->
+    <h1>descendent selector</h1>
+    <main id="parentelement">
+        <img src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg"
+            alt="">
+        <img src="https://www.dailypioneer.com/uploads/igallery/today-s-photo---indian-batsman-virat-kohli-2-2018-10-04.jpg"
+            alt="">
+        <img src="https://th.bing.com/th/id/OIP.1x7RH3WKerWIZuthcg72fgHaE1?rs=1&pid=ImgDetMain" alt="">
+        <img src="https://wallpapercave.com/wp/wp3990013.jpg" alt="">
+    </main>
+    <hr>
+
+    <!-- child selector(>) : used to targate only direct child of perticular parent element represent using > symbol -->
+    <h1>Child selector </h1>
+    <main id="childselector">
+
+        <img src="https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg"
+            alt="">
+        <div>
+            <img src="https://www.dailypioneer.com/uploads/igallery/today-s-photo---indian-batsman-virat-kohli-2-2018-10-04.jpg"
+                alt="">
+        </div>
+        <img src="https://th.bing.com/th/id/OIP.1x7RH3WKerWIZuthcg72fgHaE1?rs=1&pid=ImgDetMain" alt="">
+        <img src="https://wallpapercave.com/wp/wp3990013.jpg" alt="">
+    </main>
+
+
+    <!-- adjecent silbling (+): used to target perticular element represent using (+) symbol  -->
+    <button>Click Me</button>
+    <h1>adjecent silbling</h1>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <hr>
+
+
+    <!-- general silbling (~): used to target all the sibling element of perticular element  represent using (~ ) symbol  -->
+    <button>Click Me</button>
+    <h2>adjecent silbling</h2>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+    <button>Click Me</button>
+
+</body>
+
+</html>

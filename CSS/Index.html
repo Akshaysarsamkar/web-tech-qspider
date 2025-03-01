@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Way To Link CSS</title>
+    <style>
+        h2 {
+            color: blue;
+        }
+
+        h1 {
+            color: purple;
+        }
+    </style>
+
+    <!-- external css add using link tag -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- inline CSS -->
+    <h1 style="color: red;">
+        this is inline CSS
+    </h1>
+
+    <!-- internal css  -->
+    <h2>this is internal css</h2>
+    <h2>this is internal css</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minus temporibus ullam eos cum maxime error
+        dolores sapiente quam nulla, hic maiores sunt non voluptatum iure laboriosam, animi, rem rerum cumque ducimus!
+        Dolor vel magnam quos, quia nihil cumque commodi natus esse voluptatibus cupiditate, quaerat quibusdam! Odio
+        molestias culpa veniam optio, veritatis ut exercitationem consequuntur corrupti non iure ipsum explicabo eveniet
+        illum commodi quae necessitatibus fuga quam eius, eaque iste ex cum doloribus. Consequuntur, dicta quos earum
+        non esse quasi rem nobis sint repellendus iusto ipsum, nemo ducimus, voluptatibus consectetur optio delectus
+        dignissimos sapiente reiciendis temporibus labore iure perspiciatis. Fuga rerum sequi itaque debitis accusantium
+        quidem ab neque in placeat, non, porro suscipit, maxime illo saepe iste corporis officia perspiciatis. Iste
+        voluptatem minus alias, deleniti maiores possimus commodi eum laudantium architecto mollitia, tenetur itaque.
+        Asperiores soluta ab eligendi corporis odio sed cupiditate, quis dolorem consequatur, neque voluptate numquam
+        vitae. Non.</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit aliquam commodi natus suscipit reprehenderit
+        cumque dolorum aperiam iure qui explicabo?</p>
+
+
+    <!-- priority 
+         inline and internal ===> inline
+          -->
+
+    <h1 style="color: red;">check priority of internal and inline</h1>
+
+    <!-- priority 
+         inline and external ===> inline
+          -->
+
+    <h1 style="color: red;">check priority of external and inline</h1>
+
+
+    <!-- priority 
+         internal and external ===> depend on order or execution
+          -->
+
+    <h1>check priority of external and internal</h1>
+
+
+    <!-- add multiple css file in one css file which is link with html file  -->
+    <button>click me</button>
+</body>
+
+</html>

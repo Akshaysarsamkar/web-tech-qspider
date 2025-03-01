@@ -1,0 +1,20 @@
+section{
+    height: 350px;
+    width: 300px;
+    border: 2px solid blue;
+    display: inline-block;
+}
+
+.box1{
+    overflow: visible;
+}
+
+.box2{
+    overflow: hidden;
+}
+.box3{
+    overflow: scroll;
+}
+.box4{
+    overflow: auto;
+}

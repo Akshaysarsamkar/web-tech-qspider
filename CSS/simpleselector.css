@@ -1,0 +1,14 @@
+/* id selector  */
+
+#demo{
+ background-color: aqua;
+}
+
+/* class selector  */
+.para{
+    color: brown;
+}
+
+.bg{
+    background-color: violet;
+}

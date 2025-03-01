@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
+
+aside {
+    height: 800px;
+    width: 30%;
+    background-color: orange;
+}
+
+article {
+
+    height: 800px;
+    width: 70%;
+    background-color: blue;
+    position: absolute;
+    left: 30%;
+    top: 200px;
+
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: deeppink;
+}

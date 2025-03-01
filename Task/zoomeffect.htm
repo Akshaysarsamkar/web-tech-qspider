@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Effect</title>
+    <style>
+        section {
+            height: 250px;
+            width: 250px;
+            border-radius: 10px;
+            display: inline-block;
+            /* border: 5px solid black; */
+            overflow: hidden;
+
+        }
+
+        section img {
+            width: inherit;
+            height: inherit;
+            border-radius: inherit;
+            transition: transform 1s linear;
+        }
+
+        section img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <img src="https://th.bing.com/th/id/OIP.LRwWT_S1Pb_HhU0I1rDFNwHaFQ?rs=1&pid=ImgDetMain" alt="">
+    </section>
+    <section> <img src="https://th.bing.com/th/id/OIP.1x7RH3WKerWIZuthcg72fgHaE1?rs=1&pid=ImgDetMain" alt=""></section>
+    <section> <img src="https://th.bing.com/th/id/OIP.fSpJm8bWpyTu7Z54YV_CMAHaNL?rs=1&pid=ImgDetMain" alt=""></section>
+    <section><img src="https://th.bing.com/th/id/OIP.kVUm8yuWuijHXyzaQwTUaAHaGt?rs=1&pid=ImgDetMain" alt="">
+    </section>
+
+</body>
+
+</html>

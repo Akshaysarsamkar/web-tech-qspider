@@ -1,0 +1,41 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 120px;
+    width: 100px;
+    background-color: red;
+    transition: transform 3s 1s ease-in-out;
+}
+
+div:hover{ 
+    /* transform : move,sacle ,rotate, skew */
+    /* translate (px): to move  */
+    transform: translateX(450px);
+    transform: translateY(450px);
+    transform: translateZ(450px);
+    transform: translate(450px,250px);
+
+    /* scale : change the size of an element  */
+    transform: scaleX(2);
+    transform: scaleY(4);
+    transform: scaleZ(2);
+    transform: scale(2,4);
+
+    /* skew :bent the element  */
+    transform: skewY(45deg);
+    transform: skewX(45deg);
+    transform: skew(120deg,120deg);
+
+    /* rotate : to rotate element  */
+    transform: rotateY(45deg);
+    transform: rotateX(45deg);
+    transform: rotateZ(360deg);
+    transform: rotate(45deg,45deg);
+}

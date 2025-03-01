@@ -1,0 +1,33 @@
+p::first-letter{
+    color: green;
+    font-size: 50px;
+}
+
+p::first-line{
+    background-color: blueviolet;
+    font-size: 25px;
+}
+
+p::selection{
+    user-select: none;
+    /* background-color: red; */
+}
+
+p::before{
+    content: 'Akshay❤💖💕';
+}
+
+p::after{
+    content: 'byyyyyyyyyyyyyyyy✌🤞👩‍🏭';
+}
+
+ul li::marker{
+    color: crimson;
+    background-color: brown;
+    font-size: 32px;
+   
+}
+
+/* *::selection{
+    background-color: aquamarine;
+    } */

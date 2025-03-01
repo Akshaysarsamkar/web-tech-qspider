@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#navcontent {
+    width: 100%;
+    height: 450px;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 15%;
+}
+
+#navbar .start-content h3 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#navbar .end-content {
+    flex-basis: 45%;
+}
+
+#navbar .end-content ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+#navbar .end-content ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+
+}
+
+.middle-content {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top: 30px;
+    color: white;
+    text-align: center;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.middle-content h1 {
+
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.middle-content h2 {
+    font-size: 45px;
+    font-weight: lighter;
+    text-transform: capitalize;
+
+}
+
+.input-content input {
+    margin-top: 1rem;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+#cards {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#cards .card {
+    /* border:2px solid black; */
+    display: inline-block;
+    border-radius: 10px;
+    width: 550px;
+    height: 250px;
+    border-bottom: 1px solid rgb(240, 239, 239);
+    border-left: 1px solid rgb(240, 239, 239);
+    border-right: 1px solid rgb(240, 239, 239);
+    margin: 0px 1rem;
+    transition: transform 1s linear;
+}
+
+#cards .card:hover {
+    transform: scale(1.1);
+}
+
+#cards .card img {
+    width: 550px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content h1 {
+
+    text-align: start;
+    padding: 2px 20px;
+    font-weight: lighter;
+    color: #363636;
+}
+
+.text-content h4 {
+    font-size: 22px;
+    text-align: start;
+    padding: 2px 20px;
+    font-weight: lighter;
+    color: #4f4f4f;
+    text-transform: capitalize;
+}
+
+#city-names h1 {
+    margin-top: 3rem;
+    padding-left: 12rem;
+    color: #4f4f4f;
+    text-transform: capitalize;
+}
+
+
+#city-names .grid {
+    display: grid;
+    height: 350px;
+    width: 75%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 12rem;
+
+}
+
+#city-names .grid .grid-item {
+    height: 80px;
+    width: 350px;
+    border: 2px solid rgb(240, 239, 239);
+    box-shadow: 1px 2px 2px rgb(240, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+
+}
+
+.text{
+    cursor: pointer;
+}
+
+.text h3 {
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+
+.text p {
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    color: #4f4f4f;
+    
+}
+
+.icon-content i {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4f4f4f;
+}
+
+/* Apps links  */
+#applink {
+    /* border:3px solid red; */
+    margin-top: 3rem;
+    background-color: rgb(248, 248, 240);
+    padding: 2rem 0rem;
+   
+
+}
+
+#applink .icon img {
+    height: 450px;
+    width: 450px; 
+    position: relative;
+    left: 13rem;
+
+}
+ .text-content1{
+    position: absolute ;
+    left: 40rem;
+    top: 83rem;
+    line-height: 3.5rem;
+    text-justify: auto;
+   
+}
+.text-content1 h1{
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.text-content1 p{
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+
+.text-content1 .radio-btn strong{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 0rem 0.6rem;
+}
+
+.text-content1 .input-btn input{
+    height: 45px;
+    width: 20%;
+    font-size: 20px;
+    padding: 0px 1rem;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 239, 239);
+}
+
+.text-content1 .input-btn button{
+    height: 45px;
+    width: 10%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(239, 79, 95);
+    background-color: rgb(239, 79, 95);
+    color: white;
+    font-weight: lighter;
+
+}
+
+.apps-icon img{
+    height: 40px;
+    margin-right:1rem;
+}
+
+#near-option{
+    position: relative;
+    left: 12rem;
+    margin-top: 3rem;
+}
+
+#near-option h1{
+    color: #2b2a2a;
+    font-size: 37px;
+    font-weight: lighter;
+}
+.box{
+    height: 65px;
+    width: 80%;
+    margin: 2rem 0rem;
+    border: 2px solid rgb(240, 239, 239);
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: #2b2a2a;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.box i{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2b2a2a;
+
+}

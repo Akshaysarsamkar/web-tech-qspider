@@ -1,0 +1,47 @@
+#flex-container{
+    background-color: red;
+
+    /* flex-container */
+    display: flex;
+
+    /* flex-direction ---> row column col-rev , row-rev */
+    flex-direction: row;
+
+    /* flex-wrap: wrap; */
+
+    /* justify-content :- horizontal alignment  
+    it hav different value :- end , center , space-around space-evenly space-between */
+    justify-content: space-evenly;
+
+    height: 400px;
+
+    /* align-item used for vertical alignment 
+    start end center*/
+    align-items: center;
+
+
+
+}
+
+#flex-container .flex-items{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    color: white;
+    margin: 2px;
+    /* flex: 1; */
+}
+
+#flex-container .flex-item1{
+    /* flex-grow: 1; */
+
+    flex-basis: 50%;
+
+}
+
+#flex-container .flex-item2{
+    /* flex-grow: 1; */
+    flex-basis: 20%;
+
+}
+

@@ -1,0 +1,54 @@
+section {
+    height: 250px;
+    width: 250px;
+    text-transform: uppercase;
+}
+
+/* static ->default value  can not move the element helper properties will not work   */
+.box1 {
+
+    position: static;
+    background-color: red;
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+
+}
+
+/* 
+relative -> element start moving from its current position 
+won't allow other element to sit in their position it will not create white space      */
+
+.box2 {
+    position: relative;
+    left: 150px;
+    top: 50px;
+    background-color: yellow;
+}
+
+/* absolute --> element start moving from it root element 
+allow other element to sit in their position so it will not create white space  */
+.box3 {
+
+    background-color: blue;
+    left: 100px;
+    top: 50px;
+    position: absolute;
+    z-index: -1;
+}
+
+.box4 {
+    background-color: tomato;
+    left: 50px;
+    top: 150px;
+    position: sticky;
+    z-index: -1;
+}
+fixes : take specified position and 
+.box5 {
+    background-color: rgb(238, 14, 209);
+    left: 150px;
+    top: 150px;
+    position: fixed;
+    z-index: -1;
+}
