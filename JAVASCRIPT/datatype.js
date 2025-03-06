@@ -22,7 +22,7 @@ console.log(typeof isDev)
 let project ;
 console.log(typeof project)
 
-// null : used to create empty variable for feature use 
+// null : used to create empty object for feature use 
 let company=null;
 console.log(typeof company) 
 
