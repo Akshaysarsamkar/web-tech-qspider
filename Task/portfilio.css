@@ -222,14 +222,18 @@ body {
 }
 
 .Service-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); */
     grid-gap: 40px;
     margin-top: 50px;
     /* justify-content: center; */
+
+    
+
 }
 
 .Service-list div {
+  
     background-color: transparent;
     padding: 40px;
     font-size: 13px;
@@ -239,6 +243,7 @@ body {
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #012290f7
 }
+
 
 .Service-list div i {
     font-size: 50px;
@@ -679,7 +684,8 @@ height: 350px;
 }
 
 .contact-list {
-    margin-bottom: 3rem;
+    margin-bottom: 3rem;    
+    line-height: 1px;
 }
 
 .contact-list li {
@@ -693,6 +699,8 @@ height: 350px;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
+    padding: 0 1rem 0 0;
+    line-height: 1;
 }
 
 .contact-list li a:hover {
@@ -718,7 +726,7 @@ height: 350px;
     animation: slideLeft 1s ease forwards ;
     animation-delay: calc(.2s*var(--i));
 }
-.contact-icon i :hover{
+.contact-icon a :hover{
     background-color: #0ef;
     color: #000;
     box-shadow: 0 0 20px #0ef;
