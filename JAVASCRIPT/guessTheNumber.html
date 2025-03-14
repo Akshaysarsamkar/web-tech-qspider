@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+</head>
+
+<body>
+
+    <script>
+
+        let num = Math.trunc(Math.random() * 100)
+        console.log(num)
+
+
+
+        let correct = true
+        let c = 0;
+        while (correct) {
+
+            let userinput = Number(prompt("Guess the Number between 1 to 100"));
+
+
+            // let userinput = console.log("Guess the Number between 1 to 100");
+
+
+            if (num != userinput) {
+                console.log('Wrong Number Please Enter again:=')
+                c++;
+            } else {
+                console.log(`Total Attempt taken To Guess correct number ${c+1}`)
+                correct = false;
+                break;
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
