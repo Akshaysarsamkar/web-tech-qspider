@@ -43,6 +43,7 @@ console.log(stmt.includes('Good'))
 // repeat(): number of copies to append
 console.log(stmt.repeat(4))
 
+
 // charAt() : return chracter of passed index
 console.log(stmt.charAt(8))
 console.log(stmt.charAt(12))
