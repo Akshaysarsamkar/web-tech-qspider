@@ -50,7 +50,6 @@
 
 // 1] setTimeout()
 // console.log('Hello')
-
 // setTimeout(()=>{
 //     console.log('good Afternoon')
 
