@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Function</title>
+</head>
+<body>
+    <script>
+        //Array Function : we can not use array function in object this function check the this.variable outside the object that why it show undefine 
+
+        let obj = {
+            fname : 'Akshay',
+            lname : 'H',
+            fullname :function fullname(){
+               console.log(`hii, i am ${this.fname} ${this.lname}`)
+            }
+        }
+
+        obj.fullname()
+
+
+        //constructor Function 
+         function student(sname,sid)  {
+            this.sid = sid
+            this.sname = sname
+        }
+
+        let stu1 = new student('Hari','j')
+        console.log(stu1)
+    </script>
+</body>
+</html>

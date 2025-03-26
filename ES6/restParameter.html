@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Parameter</title>
+</head>
+<body>
+    <script>
+        // rest parameter(... identifier) : improved way handle the function parameters
+        // can store multiple/indefinite no of arguments in the form of array
+        
+        function nums(a,b,...c){
+            console.log(a)
+            console.log(b)
+            console.log(c)
+        }
+
+        nums(1,2,3,4,5,6,7,8,9,10) 
+
+         // rest parameter is last argument in the funtion
+         function show(...data){
+            console.log(data)
+         }
+
+         show(8,7,9,5,4,6,6,2)
+    </script>
+</body>
+</html>

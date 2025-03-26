@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Character</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            line-height: 2;
+        }
+
+        h1 {
+            font-size: 45px;
+            font-weight: 200;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: capitalize;
+        }
+
+        input {
+            width: 20rem;
+            height: 2rem;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="">
+            <input type="text" placeholder="Entet the character" id="texts">
+            <h1>Total Character:<span id="count">0</span></h1>
+        </form>
+
+    </div>
+
+    <script>
+        let form = document.forms[0]
+        console.log(form)
+        form.addEventListener('keypress', () => {
+            let Totalcharacter = document.getElementById('texts').value
+            let settext = document.getElementById('count').innerHTML = Totalcharacter.length + 1
+        })
+
+
+    </script>
+
+</body>
+
+</html>
