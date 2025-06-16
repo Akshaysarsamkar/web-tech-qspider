@@ -47,16 +47,16 @@
 
 
 
-let text = 'ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrstuvwxyz';
-let otp = '';
-let generateOtp = () => {
+// let text = 'ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrstuvwxyz';
+// let otp = '';
+// let generateOtp = () => {
 
-    for(let i= 0;i<4;i++){
-        otp += text[Math.floor(Math.random()*text.length)]
-    }
+//     for(let i= 0;i<4;i++){
+//         otp += text[Math.floor(Math.random()*text.length)]
+//     }
 
-    alert(`the opt ${otp} is valid for 2 min`)
-}
+//     alert(`the opt ${otp} is valid for 2 min`)
+// }
 
-generateOtp();
+// generateOtp();
 
